@@ -29,3 +29,19 @@ Ensures memory safety without a garbage collector.
 Prevents common memory errors at compile time.
 
 Rust’s approach combines performance of C with safety of high-level languages.
+
+
+Memory management is a key part of Rust’s design — it ensures safety and efficiency without using a garbage collector.
+Not having a garbage collector is one of the main reasons why Rust is so fast.
+
+Rust achieves this through:
+
+Mutability
+
+Heap and memory handling
+
+Ownership model
+
+Borrowing and references
+
+Lifetimes
