@@ -2,6 +2,8 @@ Memory Management in Programming
 
 Garbage Collector
 
+Written by some smart people
+
 Managed automatically by the language.
 
 No manual control over memory.
