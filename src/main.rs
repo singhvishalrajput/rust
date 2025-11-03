@@ -1,16 +1,21 @@
 fn main () {
 
-    let iseven: bool =  true;
+    let sentence: String = String::from("my name is Vishal");
+    let first_word: String = get_first_word(sentence);
+    print!("First word is {}", first_word);
 
-    if iseven {
-        print!("The number is even");
-    }else {
-        print!("The number is odd");
+}
+
+fn get_first_word(sentence: String) -> String {
+
+    let mut ans: String = String::from("");
+
+    for char in sentence.chars() {
+        ans.push_str(char.to_string().as_str());
+        if char == ' ' {
+            break;
+        }  
     }
 
-    for i in 0..10 {
-        print!("{} ", i);
-    }
-
-    // arrays, map, strings
+    return ans;
 }
